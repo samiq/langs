@@ -5,7 +5,7 @@ This is a personal exploration as I dip my toes in the functional world of today
 
 ## Table of Contents / TODO
 - C#
-- Clojure
+- [Clojure](clojure/intro.md)
 - Dart
 - F#
 - Go
@@ -17,4 +17,4 @@ This is a personal exploration as I dip my toes in the functional world of today
 - Ruby
 - Rust
 - Scala
-- Swift
+- [Swift](swift/intro.md)
