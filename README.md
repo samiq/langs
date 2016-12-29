@@ -6,7 +6,7 @@ This is a personal exploration as I dip my toes in the functional world of today
 ## Table of Contents / TODO
 - C#
 - [Clojure](clojure/intro.md)
-- Dart
+- [Dart](dart/intro.md)
 - F#
 - Go
 - Haskel
