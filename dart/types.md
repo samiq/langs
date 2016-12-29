@@ -42,11 +42,11 @@ var foo = const []; // where const [] creates an empty, immutable list.
 
 The Dart language has special support for the following types:
 
-- numbers: ```num``` (parent class), ```int``` and ```double```
-- strings: ```String``` : ```""``` or ```''```, for multiline strings use ```'''``` or ```"""```
-- booleans: ```bool``` : ```true``` or ```false```, with ```true``` been the only true (ie. ```1``` or non ```null``` object are treated false)
-- lists (also known as arrays) : ```new List()``` or ```[]```, ```new List< type >()```, ```< type >[]```, ```new List(5)```, where ```5``` is the lenght for a fixed-lenght list.
-- maps: ```new Map()``` or ```{ key: value, ... }```, ```new Map<String, String>``` or ```<String, String>{key : value, ..}```
-- runes (UTF-32 code points of a string.) : ```var clapping = '\u{1f44f}';```
-- symbols :  you might never need them but when you dou see [here](https://www.dartlang.org/guides/libraries/library-tour#dartmirrors---reflection)
+- **numbers:** ```num``` (parent class), ```int``` and ```double```
+- **strings:** ```String``` : ```""``` or ```''```, for multiline strings use ```'''``` or ```"""```
+- **booleans:** ```bool``` : ```true``` or ```false```, with ```true``` been the only true (ie. ```1``` or non ```null``` object are treated false)
+- **lists:** also known as arrays: ```new List()``` or ```[]```, ```new List<type>()```, ```<type>[]```, ```new List(5)```, where ```5``` is the lenght for a fixed-lenght list.
+- **maps:** ```new Map()``` or ```{ key: value, ... }```, ```new Map<String, String>``` or ```<String, String>{key : value, ..}```
+- **runes:** UTF-32 code points of a string: ```var clapping = '\u{1f44f}'; // 👏 ```
+- **symbols:**  you might never need them but when you dou see [here](https://www.dartlang.org/guides/libraries/library-tour#dartmirrors---reflection)
 
